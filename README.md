@@ -1,6 +1,6 @@
 # welcome-to-adf
 
-This repository contains files to generate the web page <LINK>.
+This repository contains files to generate the German web page.
 
 ## License
 
