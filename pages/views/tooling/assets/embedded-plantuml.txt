@@ -1,0 +1,22 @@
+# Web Shop Documentation
+
+This is the context of the Web Shop System.
+
+```plantuml
+@startuml example1
+!include https://raw.githubusercontent.com/architecture-decomposition-framework/adf-plantuml/refs/heads/main/ADF.puml
+
+ADFRole(user, "User")
+ADFRole(admin, "Administrator")
+
+ADFSystem(ws, "Web Shop")
+ADFExternalSystem(pp, "Payment Provider")
+
+ADFRelation(admin, ws, "use", "configure,\ntroubleshoot")
+ADFRelation(user, ws, "use", "register,\nbrowse,\nbuy")
+
+pp -left0)- ws : "pay"
+@enduml
+```
+
+*System-Context-Diagram (Functions@Runtime)*

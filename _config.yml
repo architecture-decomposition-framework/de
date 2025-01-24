@@ -1,0 +1,55 @@
+title: ADF
+description: Architecture Decomposition Framework
+baseUrl: ""
+url: https://neshanjo.github.io/adf/
+repository: neshanjo/adf
+
+defaults:
+  - scope:
+      path: "pages" # an empty string here means all files in the project
+      type: "pages"
+    values:
+      layout: "default"
+
+exclude:
+  # from https://github.com/jekyll/jekyll/blob/master/lib/site_template/_config.yml:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  # specific to the theme website:
+  - bin/
+  - lib/
+  - "*.gemspec"
+  - "*.gem"
+  - LICENSE.txt
+  - package.json
+  - package-lock.json
+  - Rakefile
+  - README.md
+  - CODE_OF_CONDUCT.md
+  - docker-compose.yml
+  - Dockerfile
+  # theme test code
+  - fixtures/
+
+logo: /assets/images/adf-logo-small-trans.png
+theme: just-the-docs
+color_scheme: adf
+
+callouts:
+  highlight:
+    title:
+    color: yellow
+  hint:
+    title: Hinweis
+    color: yellow
+
+#aux_links:
+#  Template Repository: https://github.com/just-the-docs/just-the-docs-template
