@@ -20,6 +20,8 @@ Die Dokumentationsvorlage enthält im ersten Abschnitt viele Hinweise zur Verwen
 [Zur Vorlage (deutsch)](https://github.com/architecture-decomposition-framework/adf-documentation-template/blob/main/template/architecture-documentation-de.md){: .btn .btn-primary }
 [Zur Vorlage (englisch)](https://github.com/architecture-decomposition-framework/adf-documentation-template/blob/main/template/architecture-documentation-en.md){: .btn .btn-primary }
 
+Es gibt im [Repository der Vorlage](https://github.com/architecture-decomposition-framework/adf-documentation-template) auch eine DOCX-Version und eine Version, bei der die Vorlage über mehrere Dateien verteilt ist.
+
 Um die Dokumentation einfach bearbeiten und möglichst vielen in aktueller Version zur Verfügung stellen zu können, empfiehlt sich die Vorgehensweise Documentation-as-Code, welche ausführlich unter folgendem Link beschrieben ist.
 
 [Hinweise zum Tooling: Documentation-as-code](doc-as-code/){: .btn }
