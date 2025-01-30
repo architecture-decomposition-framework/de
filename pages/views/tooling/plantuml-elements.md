@@ -46,7 +46,7 @@ pp -left0)- ws : "bezahlen"
 @enduml
 ```
 
-Wir können diesen Code im [PlantUML Online-Editor](https://www.plantuml.com/plantuml/uml/SyfFKj2rKt3CoKnELR1Io4ZDoSa70000) öffnen und testen. Für einen Offline-Workflow laden wir die ADF.puml-Datei aus dem [ADF-PlantUML Repository](https://github.com/architecture-decomposition-framework/adf-plantuml) herunter, legen sie in dasselbe Verzeichnis wie unsere PlantUML-Datei und binden sie mit `!include ADF.puml` ein.
+Wir können diesen Code im [PlantUML Online-Editor](https://www.plantuml.com/plantuml/uml/NP0zZjim48LxdK9HPGEMcRIkx2390PmYG91c93r9XAaXCHn2Za-_fDVQOYiE-Ctx8SzHIJGjhiQTbk3mhVfYkNTfG3shXdWoHcWzJbRdrAK8wJqhM8-zNmn9Frj5hqdG3iXNmKUhrdCx2YrOlTmC3MCR7759CO8ncXaqHBEGPNFvyUiOCgYgF5szmwva7EhcEpZf0zBiFmWDY-MCBkMqKONK5ruMVl-FYcMtnip_e8kp3-_AdtU5CBdNGWXvuI_DBl4KYJiBnUPnXQFIVGjwcfKMskJXvdcqKn8B0H_-iOfFdKDEyWf-rTmSoYC-6mYcKdhJT-BN-9nkb4PmAH52tJgC-dNVPd5zgfiE3vfTfjKPF9IFUWC0) öffnen und testen. Für einen Offline-Workflow laden wir die ADF.puml-Datei aus dem [ADF-PlantUML Repository](https://github.com/architecture-decomposition-framework/adf-plantuml) herunter, legen sie in dasselbe Verzeichnis wie unsere PlantUML-Datei und binden sie mit `!include ADF.puml` ein.
 
 ## PlantUML und Markdown - Dokumentation-as-code
 

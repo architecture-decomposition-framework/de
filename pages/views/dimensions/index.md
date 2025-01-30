@@ -19,7 +19,7 @@ Wie der Name *Decomposition* Framework schon andeutet, ist der Kern des Framewor
 
 - Dimension 1: *System* versus *Kontext*
 - Dimension 2: *Runtime* versus *Devtime* (Entwicklungszeit)
-- Dimension 3: *Daten*, *Funktionen*, *Bereitstellung*, *Aktivitäten*, *Technologien*
+- Dimension 3: *Daten*, *Funktionen*, *Deployment*, *Aktivitäten*, *Technologien*
 
 In den folgenden Abschnitten werden diese ausführlicher erklärt. Da dieses Dokument eher abstrakt und allgemein ist, kann es hilfreich sein, sich einige Beispiele für Architektursichten mit dem ADF anzusehen, wie etwa die Abbildungen in [dieser Dokumentation](https://github.com/neshanjo/what2eat/blob/with-cache/doc/architecture-documentation.md) oder die Bilder am Ende von [diesem Artikel](https://www.iese.fraunhofer.de/blog/softwarearchitekturen-einfacher-designen-und-verstaendlicher-dokumentieren-mit-dem-fraunhofer-adf/).
 
@@ -58,7 +58,7 @@ Im Gegensatz dazu denken wir bei Entwicklungszeitsichten darüber nach, wie wir 
 
 Falls wir bereits eigene Architekturansichten erstellt haben, unabhängig vom verwendeten Sichten-Framework oder den Elementtypen, sollten wir prüfen, ob unser Diagramm Laufzeit- und Entwicklungsaspekte vermischt. Es kann oft sinnvoll und vorteilhaft sein, das Diagramm in zwei separate Darstellungen zu unterteilen.
 
-## Daten, Funktionen, Bereitstellung, Aktivitäten, Technologien
+## Daten, Funktionen, Deployment, Aktivitäten, Technologien
 
 Schließlich legen wir verschiedene Aspekte von Systemen über die vorherigen Dimensionen des ADF: Daten, Funktionen, Deployment (Bereitstellung), Aktivitäten und Technologien. Dies vervollständigt unser Framework, wie die folgende Abbildung zeigt:
 
@@ -76,7 +76,7 @@ Mit dem Schema "Data/Functions/Deployment/Activities/Technologies"@"Runtime/Devt
 
 Daher beschreibt ein Diagramm mit dem Typ "Data@Runtime" Aspekte, wie Daten zur Laufzeit aussehen und wie viele Objekte es gibt.
 
-Gemischte Typen wie Funktionen+Bereitstellung@Runtime sind ebenfalls möglich. Sogar Functions@Runtime+Devtime könnte in bestimmten (seltenen) Fällen angemessen sein, in denen wir ausdrücklich Laufzeit- und Entwicklungsaspekte mischen wollen.
+Gemischte Typen wie Funktionen+Deployment@Runtime sind ebenfalls möglich. Sogar Functions@Runtime+Devtime könnte in bestimmten (seltenen) Fällen angemessen sein, in denen wir ausdrücklich Laufzeit- und Entwicklungsaspekte mischen wollen.
 
 Wir empfehlen, den Typ jedes Diagramms an den Diagramm-Titel anzuhängen, wie
 
