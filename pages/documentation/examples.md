@@ -20,6 +20,12 @@ What2Eat ist eine einfache App zur Anzeige des Tagesessens in der Mensa der Univ
 
 ## Beispiel 2: Dokchess
 
-Dokchess ist eine Schach-Engine und dient in Stefan Zörners Buch "Softwarearchitekturen dokumentieren und kommunizieren: Entwürfe, Entscheidungen und Lösungen nachvollziehbar und wirkungsvoll festhalten" als Beispiel für eine Archiekturdokumentation nach der arc42-Vorlage. Im Jahr 2025 hat Johannes Schneider eine zweite Version dieser Dokumentation im Format der ADF-Dokumentationsvorlage erstellt. Der textuelle Inhalt ist in großen Teilen gleich, so dass man hier gut arc42 und ADF miteinander vergleichen kann. Die Dokumentation ist in deutscher Sprache verfasst.
+Dokchess ist eine Schach-Engine und dient in Stefan Zörners Buch "Softwarearchitekturen dokumentieren und kommunizieren: Entwürfe, Entscheidungen und Lösungen nachvollziehbar und wirkungsvoll festhalten" als Beispiel für eine Architekturdokumentation nach der arc42-Vorlage. Im Jahr 2025 hat Johannes Schneider eine zweite Version dieser Dokumentation im Format der ADF-Dokumentationsvorlage erstellt. Der textuelle Inhalt ist in großen Teilen gleich, so dass man hier gut arc42 und ADF miteinander vergleichen kann. Die Dokumentation ist in deutscher Sprache verfasst.
 
 [Zur Dokumentation](https://github.com/neshanjo/DokChess-ADF/blob/main/dokchess-adf/dokChess-adf.md){: .btn .btn-primary }
+
+## Beispiel 3: Marktplatz Deutschland.Digital
+
+Das Projekt [Marktplatz Deutschland.Digital](https://www.deutschlanddigital.org/) beschäftigt sich mit Daseinsvorsorge im ländlichen Raum durch Digitalisierung und hat dazu unter anderem eine Plattform entwickelt, auf der verschiedene Anbieter digitale Lösungen für Kommunen zur Verfügung gestellt werden können. Im Zuge des Ausbaus der Architekturdokumentation des Projekts haben die Entwickler:innen im Projekt einen kleinen Teil von Marktplatz Deutschland.Digital ausgewählt, für den sie beispielhaft die Anwendung der ADF-Dokumentationsvorlage sowie Documentation-as-Code und Diagrams-as-Code ausprobiert haben. Der Marktplatz-Service ist ein mit Spring-Boot umgesetztes REST-Backend mit Datenbankanbindung, bei dem Marktplatz-Einträge erstellt, veröffentlicht und abgerufen werden können.
+
+[Zur Dokumentation](https://gitlab.opencode.de/smarte.land.regionen/plattform/service/marketplace-service/-/blob/main/docs/generated/inhalt.md){: .btn .btn-primary }
