@@ -9,7 +9,7 @@ layout: default
 # Beispiele für ADF-Sichten
 {: .no_toc }
 
-Diese Sichten sind den [Beispiel-Dokumentationen](../documentation/examples.html) entnommen. Weitere Beispiele finden sich dort.
+Diese Sichten sind den [Beispiel-Dokumentationen](../../documentation/examples.html) entnommen. Weitere Beispiele finden sich dort.
 
 Die Beschriftung folgt dem Schema "Name der Sicht (Typ der Sicht)".
 
