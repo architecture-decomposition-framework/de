@@ -29,3 +29,9 @@ Dokchess ist eine Schach-Engine und dient in Stefan Zörners Buch "Softwarearchi
 Das Projekt [Marktplatz Deutschland.Digital](https://www.deutschlanddigital.org/) beschäftigt sich mit Daseinsvorsorge im ländlichen Raum durch Digitalisierung und hat dazu unter anderem eine Plattform entwickelt, auf der verschiedene Anbieter digitale Lösungen für Kommunen zur Verfügung gestellt werden können. Im Zuge des Ausbaus der Architekturdokumentation des Projekts haben die Entwickler:innen im Projekt einen kleinen Teil von Marktplatz Deutschland.Digital ausgewählt, für den sie beispielhaft die Anwendung der ADF-Dokumentationsvorlage sowie Documentation-as-Code und Diagrams-as-Code ausprobiert haben. Der Marktplatz-Service ist ein mit Spring-Boot umgesetztes REST-Backend mit Datenbankanbindung, bei dem Marktplatz-Einträge erstellt, veröffentlicht und abgerufen werden können. Die Dokumentation ist in deutscher Sprache verfasst.
 
 [Zur Dokumentation](https://gitlab.opencode.de/smarte.land.regionen/plattform/service/marketplace-service/-/blob/main/docs/generated/inhalt.md){: .btn .btn-primary }
+
+## Beispiel 4: Continuous Feedback For Exercises (CoFFE)
+
+Das CoFFE-Projekt zielt darauf ab, ein automatisiertes Feedback-System mit Reporting zu entwickeln, das Student:innen und Dozent:innen bei der Bearbeitung und Bewertung von Übungsaufgaben in Informatik-Lehrveranstaltungen unterstützt. Im Rahmen des Projekts wurde eine Dokumentation mit Hilfe der ADF-Dokumentationsvorlage erstellt (in deutscher Sprache).
+
+[Zur Dokumentation](https://github.com/neshanjo/coffe-docs/blob/main/README.md){: .btn .btn-primary }
